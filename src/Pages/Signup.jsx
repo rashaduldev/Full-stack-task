@@ -1,18 +1,42 @@
-const Login = () => {
+const Signup = () => {
   return (
     <div className="flex min-h-screen">
-      {/* Left Side - Login Form */}
+      {/* Left Side - Signup Form */}
       <div className="w-full md:w-1/2 flex justify-center items-center bg-white p-8">
         <div className="max-w-sm w-full">
-          <h2 className="text-2xl font-bold mb-6">Welcome Back!</h2>
-          <p className="mb-6">Enter your credentials to access your account</p>
+          <h2 className="text-2xl font-bold mb-2 text-center">Welcome To</h2>
+          <h3 className="text-2xl font-bold mb-6 text-center">
+            Furni<span className="text-blue-600">Flex</span>
+          </h3>
+          <p className="text-center mb-6">
+            Signup for purchasing your desired products
+          </p>
           
           <form>
+            <div className="flex mb-4">
+              <div className="w-1/2 pr-2">
+                <label className="block text-sm font-medium mb-2">First name (optional)</label>
+                <input
+                  type="text"
+                  placeholder="First name"
+                  className="w-full p-3 border border-gray-300 rounded"
+                />
+              </div>
+              <div className="w-1/2 pl-2">
+                <label className="block text-sm font-medium mb-2">Last name (optional)</label>
+                <input
+                  type="text"
+                  placeholder="Last name"
+                  className="w-full p-3 border border-gray-300 rounded"
+                />
+              </div>
+            </div>
+
             <div className="mb-4">
               <label className="block text-sm font-medium mb-2">Email address</label>
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Email address"
                 className="w-full p-3 border border-gray-300 rounded"
               />
             </div>
@@ -24,14 +48,14 @@ const Login = () => {
                 placeholder="Enter your password"
                 className="w-full p-3 border border-gray-300 rounded"
               />
-              <a href="#" className="text-sm text-blue-600 float-right mt-2">Forgot Password?</a>
             </div>
 
             <div className="mb-4 flex items-center">
               <input type="checkbox" className="mr-2" />
               <label className="text-sm">I agree to the <a href="#" className="text-blue-600">Terms & Policy</a></label>
             </div>
-            <button className="w-full bg-black text-white py-3 rounded-md mb-4">Sign In</button>
+
+            <button className="w-full bg-black text-white py-3 rounded-md mb-4">Signup</button>
           </form>
 
           <div className="flex justify-between items-center mb-6">
@@ -54,7 +78,7 @@ const Login = () => {
           </div>
 
           <p className="text-center text-sm">
-            Have an account? <a href="/signup" className="text-blue-600">Sign Up</a>
+            Have an account? <a href="/" className="text-blue-600">Sign In</a>
           </p>
         </div>
       </div>
@@ -81,4 +105,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;

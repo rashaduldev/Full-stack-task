@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "img": "https://example.com/images/rocking-chair1.jpg",
+      "title": "Classic Wooden Rocking Chair",
+      "price": 120.00,
+      "newprice": 90.00,
+      "off_percent": 25,
+      "description": "A traditional wooden chair for relaxing in style and comfort."
+    },
+    {
+      "id": 2,
+      "img": "https://example.com/images/rocking-chair2.jpg",
+      "title": "Modern Comfort Rocking Chair",
+      "price": 150.00,
+      "newprice": 120.00,
+      "off_percent": 20,
+      "description": "Stylish modern rocking chair designed for ultimate comfort and relaxation."
+    },
+    {
+      "id": 3,
+      "img": "https://example.com/images/rocking-chair3.jpg",
+      "title": "Vintage Leather Rocking Chair",
+      "price": 250.00,
+      "newprice": 180.00,
+      "off_percent": 28,
+      "description": "Elegant leather rocking chair with a classic vintage aesthetic."
+    },
+    {
+      "id": 4,
+      "img": "https://example.com/images/rocking-chair4.jpg",
+      "title": "Ergonomic Rocking Chair",
+      "price": 180.00,
+      "newprice": 140.00,
+      "off_percent": 22,
+      "description": "Ergonomically designed rocking chair for maximum comfort and support."
+    },
+    {
+      "id": 5,
+      "img": "https://example.com/images/rocking-chair5.jpg",
+      "title": "Outdoor Patio Rocking Chair",
+      "price": 200.00,
+      "newprice": 160.00,
+      "off_percent": 20,
+      "description": "Durable outdoor rocking chair perfect for patios and open spaces."
+    },
+    {
+      "id": 6,
+      "img": "https://example.com/images/rocking-chair6.jpg",
+      "title": "Minimalist Rocking Chair",
+      "price": 170.00,
+      "newprice": 136.00,
+      "off_percent": 20,
+      "description": "Simple, minimalist design for a modern and elegant look."
+    },
+    {
+      "id": 7,
+      "img": "https://example.com/images/rocking-chair7.jpg",
+      "title": "Contemporary Metal Rocking Chair",
+      "price": 220.00,
+      "newprice": 176.00,
+      "off_percent": 20,
+      "description": "Sleek metal rocking chair with a contemporary design and feel."
+    },
+    {
+      "id": 8,
+      "img": "https://example.com/images/rocking-chair8.jpg",
+      "title": "Luxury Velvet Rocking Chair",
+      "price": 300.00,
+      "newprice": 240.00,
+      "off_percent": 20,
+      "description": "Luxurious velvet rocking chair, perfect for cozy and elegant seating."
+    },
+    {
+      "id": 9,
+      "img": "https://example.com/images/rocking-chair9.jpg",
+      "title": "Foldable Rocking Chair",
+      "price": 130.00,
+      "newprice": 104.00,
+      "off_percent": 20,
+      "description": "Convenient foldable rocking chair for easy storage and transport."
+    },
+    {
+      "id": 10,
+      "img": "https://example.com/images/rocking-chair10.jpg",
+      "title": "Luxury Wooden Rocking Chair",
+      "price": 350.00,
+      "newprice": 280.00,
+      "off_percent": 20,
+      "description": "Premium wooden rocking chair crafted for a luxurious seating experience."
+    }
+  ]
+  
